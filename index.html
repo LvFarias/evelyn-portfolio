@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Evelyn</title>
+    <title>Evelyn Pomini</title>
+    <link rel="icon" href="images/logo.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Evelyn Pomini</h1>
-    <p>Welcome to the home page.</p>
-    <p><a href="about.php">About</a></p>
+    <header>
+        <div class="name">
+            <img src="images/logo.svg" alt="logo">
+            <h1>Evelyn Pomini</h1>
+        </div>
+        <div class="navigation">
+            <a href="#projects">Projetos</a>
+            <a href="#formations">Formação</a>
+            <a href="#contacts">Contatos</a>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <img src="images/foto.png" alt="Foto">
+            <div>
+                <h2>UI/UX Designer & Estudante de Design Gráfico</h2>
+                <p>Olá! Sou Evelyn Pomini, tenho 30 anos, formada em Engenharia Civil e hoje sou estudante de Design Gráfico pela escola técnica SENAI</p>
+                <span class="gradient-border"></span>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="title">
+                <h2>Projetos</h2>
+                <p>Desenvolvo projetos de Design de aplicativos e sites. Uso <b>wireframes</b>, <b>protótipos</b> para testes de usabilidade no <b>Figma</b> e desenvolvo a experiência do usuário utilizando a metodologia <b>Design Thinking</b>.</p>
+            </div>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/projeto_1.png" alt="Projeto 1">
+                    <div>
+                        <span class="gradient-border"></span>
+                        <h3>Web Site - Psicologa</h3>
+                        <p>Desenvolvi a <b>paleta de cores</b> e o <b>design visual</b> do site, garantindo uma aparência atraente e coesa. Também <b>adaptei</b> e <b>otimizei</b> o site para dispositivos móveis, assegurando uma <b>experiência de usuário</b> fluida e intuitiva em todas as plataformas.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/projeto_2.png" alt="Projeto 2">
+                    <div>
+                        <span class="gradient-border"></span>
+                        <h3>Aplicativo GooDog</h3>
+                        <p>Desenvolvi um aplicativo no curso de <b>UI/UX Design</b> na escola <b>SENAI</b>, onde aprendi a criar <b>wireframes</b>, <b>protótipos</b> para testes de usabilidade no <b>Figma</b> e desenvolvi a experiência do usuário utilizando a metodologia <b>Design Thinking</b>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="formations" id="formations">
+            <h2>Formação</h2>
+            <div>
+                <h3>Engenheira Civil em transição de carreira para Design Gráfico</h3>
+                <div class="formation-list">
+                    <div class="formation">
+                        <h3>Técnico em Design Gráfico</h3>
+                        <p>Iniciando o curso para me tornar uma profissional capacitada para criar comunicação visual para mídias impressas e digitais. Aprender legislações sobre direitos autorais, uso de imagens, marcas e patentes.</p>
+                        <span class="local">SENAI</span>
+                        <span class="year">2025</span>
+                        <span class="gradient-border"></span>
+                    </div>
+                    <div class="formation">
+                        <h3>Bacharel em Engenharia Civil</h3>
+                        <p>Formada desde 2022, tive a oportunidade de aprender técnicas de cálculo, ciência dos materiais, física, química, geologia, hidráulica, e desenho técnico.</p>
+                        <span class="local">FMU</span>
+                        <span class="year">2022</span>
+                        <span class="gradient-border"></span>
+                    </div>
+                </div>
+                <div class="course-list">
+                    <img src="images/livro.svg" alt="Livre">
+                    <h3>Cursos Intensivos</h3>
+                    <div class="course">
+                        <h4>UI/UX Design</h3>
+                        <p>60h</p>
+                    </div>
+                    <div class="course">
+                        <h4>UI Design para iniciantes</h3>
+                        <p>17h</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <div class="info">
+            <h4>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa.</h4>
+            <span class="gradient-border"></span>
+            <p>Evelyn Pomini.</p>
+        </div>
+        <div class="contacts">
+            <a class="contact" href="mailto:evelynpomini@gmail.com" target="_blank">
+                <img src="images/email.svg" alt="Email">
+                <span>evelynpomini@gmail.com</span>
+            </a>
+            <a class="contact" href="https://api.whatsapp.com/send?phone=551191761845" target="_blank">
+                <img src="images/whats.svg" alt="Whatsapp">
+                <span>(11) 91761-8455</span>
+            </a>
+            <a class="contact" href="https://www.linkedin.com/in/evelynpomini/" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+                <span>linkedin.com/in/evelynpomini/</span>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
